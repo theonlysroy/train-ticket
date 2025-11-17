@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Train Ticket</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="ticket.css" />
+    </head>
+    <body>
+        <div class="ticket-container">
+            <div class="ticket">
+                <!--top train details-->
+                <div class="train-details">
+                    <div class="icon-wrap">
+                        <span class="icon">
+                            <i class="fa-solid fa-train-subway"></i>
+                        </span>
+                        <span>Swiss Express</span>
+                    </div>
+                    <span class="price">$240</span>
+                </div>
+
+                <!--separator-->
+                <div class="separator"></div>
+
+                <!--location-->
+                <div class="location">
+                    <div class="location-text">
+                        <span>zur</span>
+                        <span>Zurich</span>
+                    </div>
+                    <!--location icon-->
+                    <div class="location-icon">
+                        <span>
+                            <i class="fa-solid fa-train-subway"></i>
+                        </span>
+                        <span>1h23m</span>
+                    </div>
+                    <div class="location-text">
+                        <span>luz</span>
+                        <span>luzern</span>
+                    </div>
+                </div>
+
+                <!--extra container-->
+                <div class="extra-container">
+                    <!--passenger details-->
+                    <div class="passenger flex-content">
+                        <div class="passenger-profile">
+                            <span>
+                                <img src="https://loremfaces.net/96/id/1.jpg" />
+                            </span>
+                            <span>
+                                <h2>Emily Doe</h2>
+                                <h3>emily-doe@yopmail.com</h3>
+                            </span>
+                        </div>
+                        <div class="twin-text2">
+                            <span>Seat</span>
+                            <span>A2</span>
+                        </div>
+                    </div>
+
+                    <!--extra details-->
+                    <div class="train-class flex-content">
+                        <div class="twin-text1">
+                            <span>Train No</span>
+                            <span>JWI008</span>
+                        </div>
+                        <div class="twin-text2">
+                            <span>Class</span>
+                            <span>Business</span>
+                        </div>
+                    </div>
+
+                    <!--departure-->
+                    <div class="depart-arrival flex-content">
+                        <div class="twin-text1">
+                            <span>Departure</span>
+                            <span>10:30AM</span>
+                        </div>
+                        <div class="twin-text2">
+                            <span>Arrival</span>
+                            <span>2:45PM</span>
+                        </div>
+                    </div>
+
+                    <!--terminal-->
+                    <div class="terminal-gate flex-content">
+                        <div class="twin-text1">
+                            <span>Terminal</span>
+                            <span>6D</span>
+                        </div>
+                        <div class="twin-text2">
+                            <span>Gate</span>
+                            <span>B16</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--bar code-->
+                <div class="bar-container">
+                    <div class="barcode">
+                        <img src="./barcode.png" alt="barcode" />
+                    </div>
+                </div>
+
+                <!--download-->
+                <div class="download">
+                    <span>Download Ticket</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
